@@ -22,7 +22,7 @@ Step 2. Add the dependency
 
 ```
 	dependencies {
-	        implementation 'com.github.LinhaiGu:CountdownView:v1.0.3'
+	        implementation 'com.github.LinhaiGu:CountdownView:v1.0.4'
 	}
 ```
 
@@ -112,9 +112,9 @@ public class MainActivity extends AppCompatActivity {
             android:textSize="13sp"
             android:textColor="#ffffff"
             android:background="@drawable/countdown_background"
-            countdown:stroke_width="2dp"
-            countdown:stroke_padding="2dp"
-            countdown:stroke_color="#ffffff"
+            countdown:glh_stroke_width="2dp"
+            countdown:glh_stroke_padding="2dp"
+            countdown:glh_stroke_color="#ffffff"
     />
 
     <LinearLayout
@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
                 android:paddingLeft="2dp"
                 android:textSize="11sp"
                 android:textColor="#ffffff"
-                countdown:stroke_show="false"
+                countdown:glh_stroke_show="false"
         />
 
     </LinearLayout>
@@ -157,9 +157,9 @@ public class MainActivity extends AppCompatActivity {
             android:layout_marginTop="30dp"
             android:text="跳过"
             android:background="@drawable/countdown_background"
-            countdown:stroke_width="3dp"
-            countdown:stroke_padding="2dp"
-            countdown:stroke_color="#008577"
+            countdown:glh_stroke_width="3dp"
+            countdown:glh_stroke_padding="2dp"
+            countdown:glh_stroke_color="#008577"
     />
 
     <com.boohee.countdownview.CountDownTextView
@@ -170,7 +170,7 @@ public class MainActivity extends AppCompatActivity {
             android:textSize="15sp"
             android:textColor="@android:color/holo_blue_dark"
             android:layout_marginTop="30dp"
-            countdown:stroke_show="false"
+            countdown:glh_stroke_show="false"
     />
 
     <com.boohee.countdownview.CountDownTextView
@@ -182,7 +182,7 @@ public class MainActivity extends AppCompatActivity {
             android:textSize="16sp"
             android:textColor="@android:color/white"
             android:background="@drawable/countdown_background02"
-            countdown:stroke_show="false"
+            countdown:glh_stroke_show="false"
     />
 
     <TextView
