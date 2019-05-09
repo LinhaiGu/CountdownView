@@ -42,14 +42,14 @@ public class CountDownTextView extends android.support.v7.widget.AppCompatTextVi
     }
 
     private void init(AttributeSet attributeSet) {
-        TypedArray typedArray = getContext().obtainStyledAttributes(attributeSet, R.styleable.CountdownStyle);
+        TypedArray typedArray = getContext().obtainStyledAttributes(attributeSet, R.styleable.GLHCountdownStyle);
         float strokeWidth = dip2px(getContext(), 2);
         int strokeColor = Color.WHITE;
         if (typedArray != null) {
-            strokeWidth = typedArray.getDimension(R.styleable.CountdownStyle_stroke_width, 2);
-            strokeColor = typedArray.getColor(R.styleable.CountdownStyle_stroke_color, Color.WHITE);
-            mStrokePadding = typedArray.getDimension(R.styleable.CountdownStyle_stroke_padding, 4);
-            mShowStroke = typedArray.getBoolean(R.styleable.CountdownStyle_stroke_show, true);
+            strokeWidth = typedArray.getDimension(R.styleable.GLHCountdownStyle_glh_stroke_width, 2);
+            strokeColor = typedArray.getColor(R.styleable.GLHCountdownStyle_glh_stroke_color, Color.WHITE);
+            mStrokePadding = typedArray.getDimension(R.styleable.GLHCountdownStyle_glh_stroke_padding, 4);
+            mShowStroke = typedArray.getBoolean(R.styleable.GLHCountdownStyle_glh_stroke_show, true);
             typedArray.recycle();
         }
         if(mShowStroke) {
