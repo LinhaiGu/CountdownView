@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <declare-styleable name="CountdownStyle">
-        <attr name="stroke_width" format="reference|dimension"/>
-        <attr name="stroke_color" format="color|reference"/>
-        <attr name="stroke_padding" format="reference|dimension"/>
-        <attr name="stroke_show" format="boolean"/>
-    </declare-styleable>
-</resources>
