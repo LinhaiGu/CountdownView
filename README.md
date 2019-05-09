@@ -1,6 +1,8 @@
 [![](https://jitpack.io/v/LinhaiGu/CountdownView.svg)](https://jitpack.io/#LinhaiGu/CountdownView)
 
 
+![](https://github.com/LinhaiGu/CountdownView/blob/master/record.gif?raw=true)
+
 Step 1. Add the JitPack repository to your build file
 
 * gradle
