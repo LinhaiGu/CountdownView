@@ -20,6 +20,6 @@ Step 2. Add the dependency
 
 ```
 	dependencies {
-	        implementation 'com.github.LinhaiGu:CountdownView:v1.0.0'
+	        implementation 'com.github.LinhaiGu:CountdownView:v1.0.1'
 	}
 ```
